@@ -6,13 +6,15 @@ Gem::Specification.new do |s|
   s.name        = "fibonize"
   s.version     = Fibonize::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["TODO: Write your name"]
-  s.email       = ["TODO: Write your email address"]
+  s.authors     = ["Richard Millan"]
+  s.email       = ["richardiux@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Closest Fibonacci}
+  s.description = %q{Sample gem for Extending Integer}
 
   s.rubyforge_project = "fibonize"
+  
+  s.add_development_dependency "rspec"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
